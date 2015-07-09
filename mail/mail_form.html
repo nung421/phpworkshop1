@@ -1,0 +1,22 @@
+<html>
+<head><title>ฟอร์มเขียนอีเมล</title></head>
+<body>
+<h2>ฟอร์มเขียนอีเมล</h2>
+<form method="POST" action="mail_send.php">
+
+<table>
+<tr><td>To :</td>
+	<td><input type="text" name="to_send"> </td></tr>
+<tr><td>Subject :</td>
+	<td><input type="text" name="subject_send"> </td></tr>
+<tr><td>Messages :</td>
+	<td><textarea name="messages_send" rows="5"cols="35"></textarea></td></tr>
+<tr><td>From :</td>
+	<td><input type="text" name="from_send"></td></tr>
+</table>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
